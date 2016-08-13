@@ -393,7 +393,7 @@ nav:after {
 	padding: 0;
 }
 
-.logo-column:last-child {
+.mobile-logo-column:last-child .logo-column {
 	margin-right: 0;
 }
 
@@ -845,13 +845,24 @@ footer {
 		margin-bottom: 30px;
 	}
 
+	.mobile-logo-column {
+		margin: 0 auto;
+		overflow: hidden;
+		width: 300px;
+	}
+
 	.logo-container {
 		padding: 0 20px;
 	}
 
-	.logo-column {
+	.mobile-logo-column:last-child .logo-column {
 		float: none;
 		margin: 0 auto;
+		width: 137px;
+	}
+
+	.logo-column:last-child {
+		margin-right: 0;
 	}
 
 	.brand-logo {
