@@ -840,10 +840,6 @@ footer {
 		width: 160px;
 	}
 
-	.process-text {
-		font-size: 14px;
-	}
-
 	.warranty-text {
 		max-width: 350px;
 	}
@@ -860,6 +856,7 @@ footer {
 	.fourth-screen,
 	.fifth-screen,
 	.sixth-screen,
+	.process-screen,
 	.seventh-screen,
 	.eighth-screen,
 	footer {
@@ -972,6 +969,32 @@ footer {
 	.brand-logo {
 		margin-bottom: 30px;
 	}
+
+	.process-container {
+		width: 100%;
+	}
+
+	.process {
+		float: none;
+		margin: 0 auto 50px;
+		width: 280px;
+	}
+
+	.process:last-child {
+		margin: 0 auto;
+	}
+
+	.process-1,
+	.process-2,
+	.process-3,
+	.process-4 {
+		margin: 0 auto;
+	}
+
+	.process-text {
+		text-align: center;
+	}
+
 
 	.seventh-screen {
 		padding-bottom: 70px; 
