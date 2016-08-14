@@ -125,6 +125,7 @@ nav:after {
 
 #price,
 #why,
+#process,
 #contact {
 	position: absolute;
 	top: -30px;
@@ -409,6 +410,7 @@ nav:after {
 .process-screen-wrapper {
 	background: #fdfbfb;
 	overflow: hidden;
+	position: relative;
 }
 
 .process-screen {
@@ -443,6 +445,7 @@ nav:after {
 .process-3,
 .process-4 {
 	height: 154px;
+	margin: 0 auto;
 	width: 157px;
 }
 
@@ -484,6 +487,7 @@ nav:after {
 
 .process-text {
 	font-size: 16px;
+	text-align: center;
 }
 
 .process-decor {
@@ -667,6 +671,7 @@ footer {
 
 	#price,
 	#why,
+	#process,
 	#contact {
 		top: 0;
 	}
@@ -983,18 +988,6 @@ footer {
 	.process:last-child {
 		margin: 0 auto;
 	}
-
-	.process-1,
-	.process-2,
-	.process-3,
-	.process-4 {
-		margin: 0 auto;
-	}
-
-	.process-text {
-		text-align: center;
-	}
-
 
 	.seventh-screen {
 		padding-bottom: 70px; 
