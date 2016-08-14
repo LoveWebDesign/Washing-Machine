@@ -43,6 +43,7 @@ header,
 .fourth-screen,
 .fifth-screen,
 .sixth-screen,
+.process-screen,
 .seventh-screen,
 .eighth-screen,
 footer {
@@ -403,6 +404,90 @@ nav:after {
 
 .brand-logo {
 	margin: 0 0 10px;
+}
+
+.process-screen-wrapper {
+	background: #fdfbfb;
+	overflow: hidden;
+}
+
+.process-screen {
+	background: #fff;
+	padding: 40px 0 70px;
+}
+
+.process-title {
+	font-size: 30px;
+	margin: 0 0 30px;
+	text-align: center;
+}
+
+.process-container {
+	margin: 0 auto;
+	max-width: 768px;
+	overflow: hidden;
+}
+
+.process {
+	float: left;
+	margin-right: 15px;
+	width: 180px;
+}
+
+.process:last-child {
+	margin-right: 0;
+}
+
+.process-1,
+.process-2,
+.process-3,
+.process-4 {
+	height: 154px;
+	width: 157px;
+}
+
+.process-1 {
+	background: url('../images/sprite.png');
+}
+
+.process-2 {
+	background: url('../images/sprite.png') -160px 0;
+}
+
+.process-3 {
+	background: url('../images/sprite.png') 0 -155px;
+}
+
+.process-4 {
+	background: url('../images/sprite.png') -160px -155px;
+}
+
+.process-1:before {
+	content: "1.";
+	font-size: 24px;
+}
+
+.process-2:before {
+	content: "2.";
+	font-size: 24px;
+}
+
+.process-3:before {
+	content: "3.";
+	font-size: 24px;
+}
+
+.process-4:before {
+	content: "4.";
+	font-size: 24px;
+}
+
+.process-text {
+	font-size: 16px;
+}
+
+.process-decor {
+	font-family: 'DroidSans-Bold';
 }
 
 .seventh-screen-wrapper {
@@ -848,7 +933,7 @@ footer {
 	.mobile-logo-column {
 		margin: 0 auto;
 		overflow: hidden;
-		width: 300px;
+		width: 282px;
 	}
 
 	.logo-container {
@@ -865,8 +950,13 @@ footer {
 		margin-right: 0;
 	}
 
+	.logo-column {
+		font-size: 0;
+		margin-right: 30px;
+	}
+
 	.brand-logo {
-		width: 137px;
+		margin-bottom: 30px;
 	}
 
 	.seventh-screen {
