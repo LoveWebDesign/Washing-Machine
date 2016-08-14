@@ -677,6 +677,7 @@ footer {
 	.fourth-screen,
 	.fifth-screen,
 	.sixth-screen,
+	.process-screen,
 	.seventh-screen,
 	.eighth-screen,
 	footer {
@@ -828,6 +829,19 @@ footer {
 
 	.brand-logo {
 		width: 125px;
+	}
+
+	.process-container {
+		max-width: 718px;
+	}
+
+	.process {
+		margin: 0 0 0 15px;
+		width: 160px;
+	}
+
+	.process-text {
+		font-size: 14px;
 	}
 
 	.warranty-text {
